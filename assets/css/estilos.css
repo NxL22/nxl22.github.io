@@ -1,0 +1,83 @@
+body {
+  font-family: "Raleway", sans-serif;
+  background-color: aliceblue;
+  background-repeat:repeat;
+
+}
+/* Hero Section */
+
+#Hero-Section {
+  background-image: url("../img/bg-hero.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: left;
+}
+/* Acerca de mi  */
+
+#Acerca-de-mi {
+  height: auto;
+  width: auto;
+  background-color:rgb(32, 172, 172)
+}
+
+#Acerca-de-mi h5,
+h2,
+i {
+  color: antiquewhite;
+}
+
+
+.card {
+  background-size: 10.68rem;
+  background-repeat: no-repeat;
+}
+
+#Mis-trabajos .image-top {
+  height: 250px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-color: antiquewhite;
+}
+
+#Mis-trabajos h2 {
+  color: white;
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+
+.icono {
+  transition: 0.3s;
+}
+
+.icono:hover {
+  transform: scale(1.1);
+}
+
+/* Contacto */
+
+#Contacto {
+  background-color:rgb(32, 172, 172)
+}
+
+#Contacto form label {
+  font-weight: 700;
+  color: white;
+}
+
+.footer-color{
+  background-color:rgb(32, 172, 172)
+}
+
+/* Media querys */
+
+@media (max-width: 768px) {
+  #Contacto form label {
+    font-weight: 400;
+  }
+
+  .navbar-brand {
+    width: 100px;
+  }
+}
+

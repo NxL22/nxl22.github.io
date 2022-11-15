@@ -1,39 +1,42 @@
-.card{
-    height: 100%;
-    width: 90%;
+.card {
+  height: 100%;
+  width: 90%;
 }
 
-.img-card{
-    width: 99%;
+.img-card {
+  width: 99%;
 }
 
-.img-logo{
-width: 33%;
+.img-logo {
+  width: 33%;
 }
 
-.carita{
-    color: red;
+.carita {
+  color: red;
 }
 
-.text-acerca-de-mi{
-text-align: center;
-
-}
-.btn-outline-info{
-
-}
-.imagen-carrusel{
-    height: 200px;
-    display:block;
-    margin:0 auto;
+.text-acerca-de-mi {
+  text-align: center;
 }
 
-.text-center-2{
-    text-align: center;
-    color: white;
-    font-family:'Sono', sans-serif;
+.imagen-carrusel {
+  height: 200px;
+  display: block;
+  margin: 0 auto;
+}
 
+.text-center-2 {
+  text-align: center;
+  color: white;
+  font-family: "Sono", sans-serif;
 }
-.header{
-background-image: url("../imgs/background-image.jpg");
+
+.header {
+  background-image: url("../imgs/background-image.jpg");
 }
+
+.card-text{
+    text-align: left;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
+    font-size: large;
+}   
